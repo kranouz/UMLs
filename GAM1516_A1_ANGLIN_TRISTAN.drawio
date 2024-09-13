@@ -1,44 +1,80 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1192" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-41" value="Game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-41" value="&lt;i&gt;Game&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-43" value="Level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-43" value="Level" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-44" value="Frog" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-44" value="&lt;div&gt;&amp;lt;&amp;lt;GameObject&amp;gt;&amp;gt;&lt;/div&gt;Frog" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-45" value="HeadsUpDisplay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-45" value="HeadsUpDisplay" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-46" value="HeadsUpDisplay&lt;div&gt;levels&lt;/div&gt;&lt;div&gt;lives&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="190" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-46" value="- headsUpDisplay : HeadsUpDisplay&lt;div style=&quot;font-size: 9px;&quot;&gt;- levels : int&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- lives : int&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="110" y="190" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-47" value="terrainType&lt;div&gt;trafficSpeed&lt;/div&gt;&lt;div&gt;riverSpeed&lt;/div&gt;&lt;div&gt;obstacles&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="420" y="190" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-47" value="- terrainType : Terrain&lt;div style=&quot;font-size: 9px;&quot;&gt;- trafficSpeed : float = 0.0f&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- riverSpeed : float = 0.0f&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- obstacle : ArrayList&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="320" y="190" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-48" value="left&lt;div&gt;right&lt;/div&gt;&lt;div&gt;up&lt;/div&gt;&lt;div&gt;down&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="630" y="190" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-48" value="- direction : FrogDirection&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="540" y="540" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-49" value="currentScore&lt;div&gt;highScore&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="840" y="190" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-49" value="- currentScore : int&lt;div style=&quot;font-size: 9px;&quot;&gt;- highScore : int&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="110" y="530" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-51" value="&lt;div&gt;update(float delta)&lt;/div&gt;changeLevel()&lt;div&gt;gainLife()&lt;/div&gt;&lt;div&gt;loseLife()&lt;/div&gt;&lt;div&gt;gameOver()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="310" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-51" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;+ Update(delta : float)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ startLevel (index : int) Level*&lt;/span&gt;&lt;div style=&quot;&quot;&gt;+ restartCurrentLevel()&lt;/div&gt;+ gainLife()&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;+ loseLife()&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;+ gameOver()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="110" y="310" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-52" value="spawnObstacle()&lt;div&gt;changeTerrainType()&lt;/div&gt;&lt;div&gt;changeTrafficSpeed()&lt;/div&gt;&lt;div&gt;changeRiverSpeed()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="420" y="310" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-52" value="+ spawnObstacle()&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ initialize (levelData : LevelData)&lt;/span&gt;&lt;div style=&quot;&quot;&gt;+ start()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ restart()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getFrog() : Frog&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getObstacle() : Obstacle&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="320" y="310" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-53" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="630" y="310" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-53" value="left&lt;div style=&quot;font-size: 9px;&quot;&gt;right&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;up&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;down&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="990" y="540" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-54" value="updateCurrentScore()&lt;div&gt;updateHighScore()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="840" y="310" width="120" height="120" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-54" value="+ updateCurrentScore()&lt;div style=&quot;font-size: 9px;&quot;&gt;+ updateHighScore()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="110" y="650" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-1" value="&lt;div&gt;&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;FrogDirection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-2" value="+ changeDirection(dir : FrogDirection)&lt;div&gt;+ holdObstacle()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="540" y="660" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-3" value="&lt;div&gt;&amp;lt;&amp;lt;GameObject&amp;gt;&amp;gt;&lt;/div&gt;Obstacle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-4" value="- direction : ObstacleDirection&lt;div&gt;- obstacleType : obstacle&lt;/div&gt;&lt;div&gt;- canBeHeld : bool&lt;/div&gt;&lt;div&gt;- obstacleSpeed : float&lt;/div&gt;&lt;div&gt;- canRide : bool&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="780" y="540" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-5" value="+ changeDirection(dir : FrogDirection)" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="780" y="660" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-6" value="&lt;div&gt;GameObject&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-7" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;# x : float&lt;/span&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;# y : float&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;# size : int&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;# direction : enum&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-8" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;+ spawn()&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-9" value="left&lt;div style=&quot;font-size: 9px;&quot;&gt;right&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="990" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-10" value="&lt;div&gt;&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;ObstacleDirection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-11" value="+ numObstacles : int&lt;div style=&quot;font-size: 9px;&quot;&gt;+ duration : float&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;+ spawnX : float&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;+ spawnY : float&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dl4MCSoms6Fbu-yLL7WP-12" value="LevelData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

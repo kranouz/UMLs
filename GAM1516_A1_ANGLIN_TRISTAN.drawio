@@ -55,9 +55,6 @@
         <mxCell id="dl4MCSoms6Fbu-yLL7WP-1" value="&lt;div&gt;&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;FrogDirection" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gbZTHZR0iSVHmoZ_dP3Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dl4MCSoms6Fbu-yLL7WP-2" target="dl4MCSoms6Fbu-yLL7WP-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="dl4MCSoms6Fbu-yLL7WP-2" value="+ changeDirection(dir : FrogDirection)&lt;div&gt;+ holdObstacle()&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="830" y="570" width="120" height="50" as="geometry" />
         </mxCell>
@@ -66,9 +63,6 @@
         </mxCell>
         <mxCell id="dl4MCSoms6Fbu-yLL7WP-4" value="- direction : ObstacleDirection&lt;div&gt;- obstacleType : obstacle&lt;/div&gt;&lt;div&gt;- canBeHeld : bool&lt;/div&gt;&lt;div&gt;- obstacleSpeed : float&lt;/div&gt;&lt;div&gt;- canRide : bool&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="990" y="530" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="gbZTHZR0iSVHmoZ_dP3Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dl4MCSoms6Fbu-yLL7WP-5" target="dl4MCSoms6Fbu-yLL7WP-10">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dl4MCSoms6Fbu-yLL7WP-5" value="+ changeDirection(dir : FrogDirection)" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="990" y="620" width="120" height="40" as="geometry" />

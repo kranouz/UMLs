@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YNgotfLtQQWeTE_hUJUd-43" value="Level" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-210" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="-290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gbZTHZR0iSVHmoZ_dP3Z-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YNgotfLtQQWeTE_hUJUd-44" target="dl4MCSoms6Fbu-yLL7WP-8">
           <mxGeometry relative="1" as="geometry">
@@ -35,8 +35,8 @@
         <mxCell id="YNgotfLtQQWeTE_hUJUd-46" value="- headsUpDisplay : HeadsUpDisplay&lt;div style=&quot;font-size: 9px;&quot;&gt;- levels : int&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- lives : int&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- currentScore : int&lt;div&gt;- highScore : int&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="335" y="-260" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YNgotfLtQQWeTE_hUJUd-47" value="- terrainType :&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;TerrainType&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- trafficSpeed : float = 0.0f&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- riverSpeed : float = 0.0f&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- obstacle : ArrayList&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- frog : Frog&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-150" width="120" height="70" as="geometry" />
+        <mxCell id="YNgotfLtQQWeTE_hUJUd-47" value="- terrainType :&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;TerrainType&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- trafficSpeed : float = 0.0f&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- riverSpeed : float = 0.0f&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- obstacle : ArrayList&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- frog : Frog&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- fly :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ArrayList&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- log :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ArrayList&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- turtle :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ArrayList&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;- levelProgress : ArrayList&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-230" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="YNgotfLtQQWeTE_hUJUd-48" value="- direction : FrogDirection&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="450" y="210" width="120" height="40" as="geometry" />
@@ -48,7 +48,7 @@
           <mxGeometry x="335" y="-190" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YNgotfLtQQWeTE_hUJUd-52" value="+ spawnObstacle()&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ initialize (levelData : LevelData)&lt;/span&gt;&lt;div style=&quot;&quot;&gt;+ start()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ restart()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getFrog() : Frog&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+ getObstacle() : Obstacle&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-80" width="120" height="100" as="geometry" />
+          <mxGeometry x="160" y="-70" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YNgotfLtQQWeTE_hUJUd-53" value="left&lt;div style=&quot;font-size: 9px;&quot;&gt;right&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;up&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;down&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="640" y="500" width="120" height="50" as="geometry" />
@@ -98,13 +98,13 @@
           <mxGeometry x="800" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dl4MCSoms6Fbu-yLL7WP-11" value="+ numObstacles : int&lt;div style=&quot;font-size: 9px;&quot;&gt;+ duration : float&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;+ spawnX : float&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;+ spawnY : float&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="160" y="110" width="120" height="70" as="geometry" />
+          <mxGeometry x="160" y="180" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gbZTHZR0iSVHmoZ_dP3Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dl4MCSoms6Fbu-yLL7WP-12" target="YNgotfLtQQWeTE_hUJUd-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dl4MCSoms6Fbu-yLL7WP-12" value="LevelData" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="70" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gbZTHZR0iSVHmoZ_dP3Z-11" value="water&lt;div&gt;concrete&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="490" y="510" width="120" height="40" as="geometry" />
